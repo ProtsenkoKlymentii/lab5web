@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи JS</title>
+    <link rel="stylesheet" href="Web5.css">
+</head>
+<body>
+    <div class="block1">
+        <div class="box">
+            <h1>Заголовок 1</h1>
+        </div>
+        <div class="infoblock">
+            <p id="text1">Текст в блоке 1</p>
+        </div>
+    </div>
+    
+    <div class="block2">
+        <h3>Настройка текста:</h3>
+        <label>
+            <input type="radio" name="textStyle" value="italic"> Курсив
+        </label>
+        <label>
+            <input type="radio" name="textStyle" value="normal" checked> Обычный
+        </label>
+    </div>
+    
+    <div class="block3">
+        <h3>Решения задач</h3>
+        <div>
+            <h4>Площадь ромба:</h4>
+            <button id="calcRhombus">Вычислить площадь</button>
+            <p id="rhombusResult">Результат площади появится здесь.</p>
+        </div>
+        <form id="triangleForm">
+            <h4>Проверка треугольника:</h4>
+            <label>Сторона A: <input type="number" id="sideA" required></label><br>
+            <label>Сторона B: <input type="number" id="sideB" required></label><br>
+            <label>Сторона C: <input type="number" id="sideC" required></label><br>
+            <button type="submit">Проверить</button>
+        </form>
+    </div>
+    
+    <div class="block4">
+        <p id="text2">Блок 4. Наведите мышкой, чтобы изменить текст.</p>
+    </div>
+    
+    <div class="block5">
+        <button id="addItem">Добавить элемент в список</button>
+        <button id="saveList">Сохранить список</button>
+        <button id="clearList">Очистить список</button>
+        <ul id="dynamicList"></ul>
+    </div>
+    
+    <div class="block6">
+        <div class="box">
+            <h2>Заголовок 6</h2>
+        </div>
+        <div class="info_menu">
+            <p id="text6">Текст в блоке 6</p>
+        </div>
+    </div>
+    
+    <script src="Web5.js"></script>
+</body>
+</html>
